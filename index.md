@@ -9,3 +9,7 @@ The courses I have taken at SNHU have also allowed me to learn about both collab
 In this portfolio I have shared one artifact.  This artifact combines showcases knowledge of UI design, software development, SQLite database, and Android Studio to prodce a fitness application.  The application uses lots of widgets to display lists of information that the user has previously entered.  This information is later used to supply the user with user recommendations based on their goals.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/js-9ILXXGbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Original Fitness Application](https://github.com/PerryWolfe93/WeightTrackingApp/tree/online-db-setup)
+
+[Updated Fitness Application](
