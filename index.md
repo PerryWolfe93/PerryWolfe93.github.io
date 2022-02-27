@@ -22,6 +22,6 @@ The enhancement areas of this project are software design/development, data stru
 
 [Software Design](softwareDesign.md)
 
-[Data Structures and Algorithms](https://perrywolfe93.github.io/dataStructuresAndAlgorithms)
+[Data Structures and Algorithms](dataStructuresAndAlgorithms.md)
 
-[Database](https://perrywolfe93.github.io/databases)
+[Database](databases.md)
