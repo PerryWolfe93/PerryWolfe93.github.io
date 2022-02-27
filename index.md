@@ -16,12 +16,12 @@ The enhancement areas of this project are software design/development, data stru
 
 ##### Code Review
 
-[Code Review] (https://perrywolfe93.github.io/codeReview)
+[Code Review](/codeReview)
 
 ##### Artifact Enhancements
 
-[Software Design] (https://perrywolfe93.github.io/softwareDesign)
+[Software Design](softwareDesign)
 
-[Data Structures and Algorithms] (https://perrywolfe93.github.io/dataStructuresAndAlgorithms)
+[Data Structures and Algorithms](https://perrywolfe93.github.io/dataStructuresAndAlgorithms)
 
-[Database] (https://perrywolfe93.github.io/databases)
+[Database](https://perrywolfe93.github.io/databases)
