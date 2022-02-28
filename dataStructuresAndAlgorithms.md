@@ -10,3 +10,5 @@ The database structure used in each of the databases was very important in allow
 One issue with this method will arise if the user saves data both locally and remotely and stores different data on each without syncing.  In this scenario, one of the databases will have to take precedence over the other resulting in some data loss.
 
 Although I did not finish this enhancement, I do not think it will be difficult to implement once all of the bugs are worked out of my project.  Until the application can function using both local and remote users, this enhancement can not be completed.
+
+[Back to Home Page](/)
