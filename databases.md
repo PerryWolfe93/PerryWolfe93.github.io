@@ -12,4 +12,6 @@ Currently, only some of the application’s layout activities will run correctly
 
 Overall, I feel that this project shed some light on a previously confusing area of computer science for me.  
 
+<script src="https://gist.github.com/PerryWolfe93/514d746535f86572ddf27597635c789d.js"></script>
+
 [Back to Home Page](/)
