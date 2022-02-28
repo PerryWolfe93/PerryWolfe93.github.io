@@ -8,7 +8,11 @@ Although there are still some flaws in my code, I can send and receive data betw
 
 In order for users to gain access to the server, they also had to have logins and database user accounts created as well as be given read and write permissions.  One major security problem with the current design of the code is that in order to create a new user, a server admin is logged in using their username and password, thus exposing their login credentials.
 
-Currently, only some of the application’s layout activities will run correctly as there are still some bugs being worked out.  However, the user can both locally and remotely store and retrieve their user data, weight data, and exercise data.
+Currently, only some of the application’s layout activities will run correctly as there are still some bugs being worked out.  However, the user can both locally and remotely store and retrieve their user data, weight data, and exercise data.  The two images below show data being entered using the application and its corresponding database table.
+
+[Fitness Tracker App User Profile Activity](docs/assets/FitnessTrackerUserProfile (2).png)
+
+[Microsoft SQL Server Data Table](docs/assets/MSSQLServerDBFitnessTrackerData.png)
 
 Overall, I feel that this project shed some light on a previously confusing area of computer science for me.  
 
