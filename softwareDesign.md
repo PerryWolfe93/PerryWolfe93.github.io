@@ -6,8 +6,10 @@ When beginning this enhancement, I quickly realized that I needed to do some res
 
 Another part of the enhancement was adding a moving graphic in the background.  I tried to choose something that might fit a fitness app, so I chose a blue/light blue gradient.  In performing this modification, I gained a better understanding of how file systems are organized in Android Studio.  I also added in some .png graphic files to give some more life to the login screen.  I plan on adding more to the other layout activities as well after the course is over.
 
+<p align="center">
 ![Fit Tracker Login Screen](docs/assets/FitnessTrackerUILogin (2).png)
-
+</p>
+  
 Each of the six main layout activities within the application now have a more structured layout and a more visually interesting aesthetic.
 
 <script src="https://gist.github.com/PerryWolfe93/b1e10fa2115e0a846fd79c21c32cdb99.js"></script>
