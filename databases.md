@@ -10,9 +10,9 @@ In order for users to gain access to the server, they also had to have logins an
 
 Currently, only some of the application’s layout activities will run correctly as there are still some bugs being worked out.  However, the user can both locally and remotely store and retrieve their user data, weight data, and exercise data.  The two images below show data being entered using the application and its corresponding database table.
 
-[Fitness Tracker App User Profile Activity](docs/assets/FitnessTrackerUserProfile (2).png)
+![Fitness Tracker App User Profile Activity](docs/assets/FitnessTrackerUserProfile (2).png)
 
-[Microsoft SQL Server Data Table](docs/assets/MSSQLServerDBFitnessTrackerData.png)
+![Microsoft SQL Server Data Table](docs/assets/MSSQLServerDBFitnessTrackerData.png)
 
 Overall, I feel that this project shed some light on a previously confusing area of computer science for me.  
 
