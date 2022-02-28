@@ -11,6 +11,6 @@ One issue with this method will arise if the user saves data both locally and re
 
 Although I did not finish this enhancement, I do not think it will be difficult to implement once all of the bugs are worked out of my project.  Until the application can function using both local and remote users, this enhancement cannot be completed. The code displayed below shows the data storage and retrieval methods used by the local SQLite database.
 
-[](<script src="https://gist.github.com/PerryWolfe93/065024f5bb4cbe9d1ade7565ba79c36f.js"></script>)
+<script src="https://gist.github.com/PerryWolfe93/065024f5bb4cbe9d1ade7565ba79c36f.js"></script>
 
 [Back to Home Page](/)
