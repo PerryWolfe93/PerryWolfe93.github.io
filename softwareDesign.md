@@ -8,6 +8,6 @@ Another part of the enhancement was adding a moving graphic in the background.  
 
 Each of the six main layout activities within the application now have a more structured layout and a more visually interesting aesthetic.
 
-[](main/res/layout/activity_user_profile.xml)
+<script src="https://gist.github.com/PerryWolfe93/b1e10fa2115e0a846fd79c21c32cdb99.js"></script>
 
 [Back to Home Page](/)
