@@ -1,15 +1,7 @@
 #### Software Design Enhancement
 
-With this enhancement, I have overhauled the user interface of my Fitness Tracker application created in Android Studio for the previous course, Mobile Architecture and Programming.  This enhancement demonstrates knowledge of front-end development.  The Android Studio development environment provides tools for altering .xml files to create the layouts used by mobile Android applications.  While there is a simplicity to this kind of programming, it can get very chaotic when working with dozens of widgets.  Having good organizational practices such as appropriate spacing and naming convention is extremely helpful when building an interface. 
+My goal with this project enhancement was to incorporate functionality for the user to be able to track journal entries.  I began by creating the interfaces for the user to interact with.  The first of these, the journal entry activity, is necessary for the user to make new journal entries as well as access previous entries.  The second activity is used to view past journal entries.  I then developed the database methods for storing and accessing the data.  Finally, I added the backend code that is needed for the user's inputs to operate as intended. 
 
-When beginning this enhancement, I quickly realized that I needed to do some research on organizational methods when designing layouts in Android Studio.  Once I found a method that I liked, I used it to keep all of the text, user entry fields, switches, radio groups, seek bars, and buttons in place.  The method that I found should allow for the interface to still look fine across multiple platforms as each widget's location is constrained relative to one another.  
-
-Another part of the enhancement was adding a moving graphic in the background.  I tried to choose something that might fit a fitness app, so I chose a blue/light blue gradient.  In performing this modification, I gained a better understanding of how file systems are organized in Android Studio.  I also added in some .png graphic files to give some more life to the login screen.  I plan on adding more to the other layout activities as well after the course is over.
-
-![Fit Tracker Login Screen](docs/assets/FitnessTrackerUILogin (2).png)
-  
-Each of the six main layout activities within the application now have a more structured layout and a more visually interesting aesthetic.
-
-<script src="https://gist.github.com/PerryWolfe93/65ad93273f33aac792408e30df247eb7.js"></script>
+The completion of this task required that I learn to use a new widget, improve my understanding of Java interfaces and inner classes to incorporate a recycler view widget, and set up a remote database.  Of these, setting up the remote database proved to be extremely challenging for me.  I first had to learn to use an Android library, Retrofit, to convert Java objects into a JSON format.  The JSON object then needed PHP code on the server side to convert the JSON object to code that could be understood by MySQL.  I used Amazon's ec2 and rds systems to host both my remote server and MySQL database.  This was especially challenging for me because I previously had very little understanding of web APIs.
 
 [Back to Home Page](/)
