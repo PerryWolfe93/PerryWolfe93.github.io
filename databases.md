@@ -1,21 +1,7 @@
 #### Databases Enhancement
 
-For the database enhancement portion of my artifact update, I have added to my fitness tracker application the ability for a user to retrieve and store their data on a remote database.  I have chosen this enhancement because it shows my capability in using SQL as well as some understanding of how to set up and connect to a remote server.
+For this enhancement, my goal was to add role-based authentication to the application.  I began by researching how to connect to a database using an API.  This led me to the Retrofit library built for Android studio and PHP (Hypertext Pre-Protocol).  I used the Retrofit library to convert Java objects into JSON format which could be passed to a server.  I am using AWS EC2 in conjunction with AWS RDS to host my web server and database.  Once the JSON code is passed to the server, PHP converts it to code that can be used by the MySQL database.  I then added a server role for application users to log in as.
 
-In working on this enhancement, I reinforced my previous learning of using SQL statements, learned how to allow connection to a remote server using my IP address and configuring ports, and learned a little bit about how data server access is controlled.
-
-Although there are still some flaws in my code, I can send and receive data between the mobile application and MS SQL Server.  To begin, I built the entire database using SQL Server Management Studio.  This required that I learn database structure best practices.  All five tables of my database have primary keys and four have foreign keys so that all of the data is linked together.  This prohibits data being stored that does not have a matching entry in a parent table.  Once the database was complete, I built all of the functionality for data transmission between the mobile application and the database server.  This mostly consists of SQL statements.
-
-In order for users to gain access to the server, they also had to have logins and database user accounts created as well as be given read and write permissions.  One major security problem with the current design of the code is that in order to create a new user, a server admin is logged in using their username and password, thus exposing their login credentials.
-
-Currently, only some of the application’s layout activities will run correctly as there are still some bugs being worked out.  However, the user can both locally and remotely store and retrieve their user data, weight data, and exercise data.  The two images below show data being entered using the application and its corresponding database table.
-
-![Fitness Tracker App User Profile Activity](docs/assets/FitnessTrackerUserProfile (2).png)
-
-![Microsoft SQL Server Data Table](docs/assets/MSSQLServerDBFitnessTrackerData.png)
-
-Overall, I feel that this project shed some light on a previously confusing area of computer science for me.  
-
-<script src="https://gist.github.com/PerryWolfe93/514d746535f86572ddf27597635c789d.js"></script>
+From this enhancement, I have learned how internet connections are established using different protocols along with the host URL.  I have also learned to use the Retrofit library as well as PHP to convert objects between Java and JSON objects.  Finally, I actually learned how dependencies work.  The most difficult part of this enhancement was setting up the remote database and establishing a connection correctly.  Once I learned to do this, the rest only required that I learn to use Retrofit and PHP.  
 
 [Back to Home Page](/)
